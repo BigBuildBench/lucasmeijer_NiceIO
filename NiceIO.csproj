@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>9</LangVersion>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <DefineConstants>NICEIO_PUBLIC</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="NiceIO.cs"/>
+  </ItemGroup>
+</Project>
